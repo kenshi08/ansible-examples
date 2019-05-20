@@ -1,0 +1,8 @@
+---
+- hosts: vra-servers
+  remote_user: root
+
+  roles:
+  - mysql
+  - apache
+  - php
