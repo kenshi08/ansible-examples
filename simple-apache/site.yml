@@ -1,7 +1,7 @@
 ---
 # This playbook deploys a simple standalone apache server. 
 
-- hosts: apache-servers 
+- hosts: vra-servers 
   remote_user: root
 
   roles:

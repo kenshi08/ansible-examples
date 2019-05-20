@@ -1,2 +1,2 @@
-[apache-servers]
-webserver1
+[vra-servers]
+apache-servers
