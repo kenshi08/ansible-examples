@@ -1,0 +1,8 @@
+---
+# This playbook deploys a simple standalone apache server. 
+
+- hosts: apache-servers 
+  remote_user: root
+
+  roles:
+    - simple-apache
